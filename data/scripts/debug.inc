@@ -148,7 +148,8 @@ Debug_EventScript_Script_2::
 	end
 
 Debug_EventScript_Script_3::
-	warp MAP_SSELEGANT, 28, 14
+	setflag FLAG_IS_CHAMPION
+	warp MAP_CHAMPIONSHIP, 30, 14
 	release
 	end
 

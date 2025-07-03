@@ -10,6 +10,12 @@ mapscripts Championship_Venue_MapScripts{}
 
 
 script ChampionshipVenue_SignUp{
+    if (flag(FLAG_SYS_GAME_CLEAR)){
+        msgbox(format("Thank you for participating in this year's Championship!"), MSGBOX_NPC)
+        releaseall
+        end
+    }
+
     if (!flag(FLAG_CHAMPIONSHIP_KOHLA_ROOM)){
         msgbox(format("Welcome, trainer, to this years\nCormoria Pokémon Championships!\lRegistration will open shortly.\pWe're waiting for all the participants\nto arrive at the venue."), MSGBOX_NPC)
         end
@@ -80,6 +86,7 @@ script ChampionshipVenue_Entry{
 
     if (flag(FLAG_SYS_GAME_CLEAR)){
         msgbox(format("Thank you for participating in this year's Championship!"), MSGBOX_NPC)
+        releaseall
         end
     }
 
