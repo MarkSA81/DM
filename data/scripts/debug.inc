@@ -143,16 +143,17 @@ Debug_EventScript_Script_1::
 	end
 
 Debug_EventScript_Script_2::
-	warp MAP_PELLUCA_CITY_RESTAURANT, 9, 7
+	call PellucaFishery_EventScript_WarpToFlood
 	release
 	end
 
 Debug_EventScript_Script_3::
-	givemon SPECIES_TOXEL, 10
-	givemon SPECIES_TOXEL, 10
-	givemon SPECIES_TOXEL, 10
-	givemon SPECIES_TOXEL, 10
-	givemon SPECIES_TOXEL, 10
+	givemon SPECIES_TORCHIC, 1
+	givemon SPECIES_TORCHIC, 1
+	givemon SPECIES_TORCHIC, 1
+	givemon SPECIES_TORCHIC, 1
+	givemon SPECIES_TORCHIC, 1
+	warp MAP_RIVETSHORE_RANGER_INSTITUTE, 30, 17
 	release
 	end
 

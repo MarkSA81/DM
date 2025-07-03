@@ -1,0 +1,30 @@
+raw`
+    .set LOCALID_DAYCARE_MAN, 2
+    .set LOCALID_DAYCARE_MON_0, 3
+    .set LOCALID_DAYCARE_MON_1, 4
+`
+
+mapscripts Rivetshore_RangerInstitute_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION: Rivetshore_RangerInstitute_OnTransition
+}
+
+
+script Rivetshore_RangerInstitute_OnTransition{
+    call(Rivetshore_RangerInstitute_TryMoveDayCareMan)
+	// set flags for OW daycare mons
+	setflag(FLAG_TEMP_1)
+	setflag(FLAG_TEMP_2)
+	getdaycaregfx(VAR_OBJ_GFX_ID_0, VAR_OBJ_GFX_ID_1, VAR_TEMP_0, VAR_TEMP_1)
+	switch (var(VAR_RESULT))
+    {
+        case 2: call(Route117_EventScript_ShowDaycareMon1)
+        case 1: call(Route117_EventScript_ShowDaycareMon0)
+    }
+	end
+}
+
+
+script Rivetshore_RangerInstitute_TryMoveDayCareMan{
+	goto_if_unset(FLAG_PENDING_DAYCARE_EGG, Route117_EventScript_StopMoveDayCareMan)
+	setobjectxyperm(LOCALID_DAYCARE_MAN, 26, 12)
+}

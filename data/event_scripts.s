@@ -1489,3 +1489,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/Route8_House/scripts.inc"
 
 	.include "data/maps/Route6_ZeraoraCave_B1F/scripts.inc"
+
+	.include "data/maps/Rivetshore_Lookout/scripts.inc"

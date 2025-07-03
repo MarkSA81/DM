@@ -6050,6 +6050,16 @@
       "secondary_tileset": "gTileset_CaveAlt",
       "border_filepath": "data/layouts/Route6_ZeraoraCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/Route6_ZeraoraCave_B1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIVETSHORE_LOOKOUT",
+      "name": "Rivetshore_Lookout_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_Rivetshore",
+      "secondary_tileset": "gTileset_Slateport",
+      "border_filepath": "data/layouts/Rivetshore_Lookout/border.bin",
+      "blockdata_filepath": "data/layouts/Rivetshore_Lookout/map.bin"
     }
   ]
 }
