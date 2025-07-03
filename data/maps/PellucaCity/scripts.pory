@@ -537,10 +537,7 @@ script PellucaCityFlooded_MainEvent_Cutscene{
     speakername("Q-squad Boss")
     msgbox(format("Is everyone safe?"))
     speakername("Citizen")
-    msgbox(format("No - there are still four people in the water! We have to save them fast!"))    
-    release
-    
-    waitmovement(OBJ_EVENT_ID_CAMERA)
+    msgbox(format("No - there are still four people in the water! We have to save them fast!"))
 
     //the two bosses fight
     applymovement(LOCALID_FL_QWIL, moves(jump_in_place_right))
