@@ -37,11 +37,11 @@ script MtCeram_Caves_Greta_Battle{
 
     delay(24)
 
-    msgbox_delay("Greta", format(""))
+    msgbox_delay("Greta", format("{PLAYER}! So it was here that we met. You saved me from the Venipede and Sizzlipede!\pYou were just a regular young trainer back then, but now you're the Fifth Cormoria Champion!\pI hope Arsalan does a good job with your painting...\pI haven't been this excited since Ravine and I dueled after I won!\pThe four previous Champions are in a league of their own, {PLAYER}.\lWe've got tricks up our sleeve that you won't see anywhere else!\pAre you ready?"))
 
-    trainerbattle_no_intro(TRAINER_CHAMPION_GRETA, format(""))
+    trainerbattle_no_intro(TRAINER_CHAMPION_GRETA, format("Spectacular!"))
 
-    msgbox_delay("Greta", format(""))
+    msgbox_delay("Greta", format("This feeling...I've been so focused on business, I forgot what it was like to be a trainer and battle! The adrenaline! Oh Banette, I need to hold on to you.\pAhem.\p{PLAYER} - that was incredible!\nYou're really worth your title.\pSigh...I feel like asking for a rematch, but I can't leave my stall unmanned for this long. I suppose my battling days are behind me now.\pSee you around, {PLAYER}!"))
     applymovement(6, moves(walk_left walk_down * 2 walk_left * 7))
     applymovement(7, moves(walk_left walk_right walk_down * 2 walk_left * 7))
     waitmovement(0)

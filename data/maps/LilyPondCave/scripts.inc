@@ -124,26 +124,26 @@ LilyPondCave_Martha_Battle::
 # 68 "data//maps/LilyPondCave/scripts.pory"
 	msgbox_delay LilyPondCave_Martha_Battle_Text_0, LilyPondCave_Martha_Battle_Text_1
 # 70 "data//maps/LilyPondCave/scripts.pory"
-	trainerbattle_no_intro TRAINER_CHAMPION_MARTHA, LilyPondCave_Martha_Battle_Text_1
+	trainerbattle_no_intro TRAINER_CHAMPION_MARTHA, LilyPondCave_Martha_Battle_Text_2
 # 72 "data//maps/LilyPondCave/scripts.pory"
-	msgbox_delay LilyPondCave_Martha_Battle_Text_0, LilyPondCave_Martha_Battle_Text_1
-# 74 "data//maps/LilyPondCave/scripts.pory"
-	applymovement 8, LilyPondCave_Martha_Battle_Movement_0
+	msgbox_delay LilyPondCave_Martha_Battle_Text_0, LilyPondCave_Martha_Battle_Text_3
 # 75 "data//maps/LilyPondCave/scripts.pory"
-	applymovement 9, LilyPondCave_Martha_Battle_Movement_1
+	applymovement 8, LilyPondCave_Martha_Battle_Movement_0
 # 76 "data//maps/LilyPondCave/scripts.pory"
+	applymovement 9, LilyPondCave_Martha_Battle_Movement_1
+# 77 "data//maps/LilyPondCave/scripts.pory"
 	waitmovement 0
-# 78 "data//maps/LilyPondCave/scripts.pory"
-	removeobject 8
 # 79 "data//maps/LilyPondCave/scripts.pory"
+	removeobject 8
+# 80 "data//maps/LilyPondCave/scripts.pory"
 	removeobject 9
-# 81 "data//maps/LilyPondCave/scripts.pory"
-	playse SE_EXIT
 # 82 "data//maps/LilyPondCave/scripts.pory"
+	playse SE_EXIT
+# 83 "data//maps/LilyPondCave/scripts.pory"
 	waitse
-# 84 "data//maps/LilyPondCave/scripts.pory"
+# 85 "data//maps/LilyPondCave/scripts.pory"
 	setflag FLAG_CHAMPION_MARTHA_COMPLETE
-# 86 "data//maps/LilyPondCave/scripts.pory"
+# 87 "data//maps/LilyPondCave/scripts.pory"
 	releaseall
 	end
 
@@ -182,53 +182,53 @@ LilyPondCave_Martha_Battle_Trigger2_Movement_0:
 	face_up
 	step_end
 
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 LilyPondCave_Martha_Battle_Movement_0:
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_right
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_left
-# 74 "data//maps/LilyPondCave/scripts.pory"
+# 75 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
 	step_end
 
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 LilyPondCave_Martha_Battle_Movement_1:
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_right
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_right
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_left
-# 75 "data//maps/LilyPondCave/scripts.pory"
+# 76 "data//maps/LilyPondCave/scripts.pory"
 	walk_down
 	step_end
 
@@ -238,4 +238,45 @@ LilyPondCave_Martha_Battle_Text_0:
 
 LilyPondCave_Martha_Battle_Text_1:
 # 68 "data//maps/LilyPondCave/scripts.pory"
-	.string "$"
+	.string "Terrible, you are, making someone my age\n"
+	.string "travel so far.\p"
+	.string "But I suppose I owe the Fifth Cormoria\n"
+	.string "Champion a fitting welcome.\p"
+	.string "You know, back when I won the inagural\n"
+	.string "Pokemon Championship, Cormoria was\l"
+	.string "much younger...and much wilder!\l"
+	.string "Trainers competed furiously for the\l"
+	.string "prestige of being the inagural title!\p"
+	.string "But of course, there were many losers\n"
+	.string "and only one victor.\p"
+	.string "I have fond memories of those days,\n"
+	.string "{PLAYER}. I wish I could show you the\l"
+	.string "Cormoria that used to be!\p"
+	.string "Haha! Not Ancient Cormoria!\n"
+	.string "Just my era.\p"
+	.string "But these old bones haven't been\n"
+	.string "sitting idle, you know? I've been\l"
+	.string "keeping up with the times. Professor\l"
+	.string "Tenebris gifted me a wonderful new\l"
+	.string "Pokemon from the past!\p"
+	.string "...\p"
+	.string "It's time {PLAYER}.\p"
+	.string "This is your final battle.\p"
+	.string "Leave no regrets!$"
+
+LilyPondCave_Martha_Battle_Text_2:
+# 70 "data//maps/LilyPondCave/scripts.pory"
+	.string "Oh my! A spectacular battle!$"
+
+LilyPondCave_Martha_Battle_Text_3:
+# 72 "data//maps/LilyPondCave/scripts.pory"
+	.string "After I became the First Cormoria\n"
+	.string "Champion, I tucked away my Trainer Card\l"
+	.string "and pursued a career as a historian. All\l"
+	.string "the other Champions did the same. I\l"
+	.string "suppose that's what makes us Champions\l"
+	.string "after all - we don't stop, for there are\l"
+	.string "always new peaks to scale!\p"
+	.string "Your journey never truly ends,\n"
+	.string "{PLAYER}. Find your next peak and\l"
+	.string "scale it!$"

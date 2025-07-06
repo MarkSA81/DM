@@ -61,9 +61,9 @@ MtCeram_Caves_Greta_Battle::
 # 40 "data//maps/MtCeram_Caves/scripts.pory"
 	msgbox_delay MtCeram_Caves_Greta_Battle_Text_0, MtCeram_Caves_Greta_Battle_Text_2
 # 42 "data//maps/MtCeram_Caves/scripts.pory"
-	trainerbattle_no_intro TRAINER_CHAMPION_GRETA, MtCeram_Caves_Greta_Battle_Text_2
+	trainerbattle_no_intro TRAINER_CHAMPION_GRETA, MtCeram_Caves_Greta_Battle_Text_3
 # 44 "data//maps/MtCeram_Caves/scripts.pory"
-	msgbox_delay MtCeram_Caves_Greta_Battle_Text_0, MtCeram_Caves_Greta_Battle_Text_2
+	msgbox_delay MtCeram_Caves_Greta_Battle_Text_0, MtCeram_Caves_Greta_Battle_Text_4
 # 45 "data//maps/MtCeram_Caves/scripts.pory"
 	applymovement 6, MtCeram_Caves_Greta_Battle_Movement_1
 # 46 "data//maps/MtCeram_Caves/scripts.pory"
@@ -463,7 +463,40 @@ MtCeram_Caves_Greta_Battle_Text_1:
 
 MtCeram_Caves_Greta_Battle_Text_2:
 # 40 "data//maps/MtCeram_Caves/scripts.pory"
-	.string "$"
+	.string "{PLAYER}! So it was here that we met.\n"
+	.string "You saved me from the Venipede and\l"
+	.string "Sizzlipede!\p"
+	.string "You were just a regular young trainer\n"
+	.string "back then, but now you're the Fifth\l"
+	.string "Cormoria Champion!\p"
+	.string "I hope Arsalan does a good job with\n"
+	.string "your painting...\p"
+	.string "I haven't been this excited since\n"
+	.string "Ravine and I dueled after I won!\p"
+	.string "The four previous Champions are in a\n"
+	.string "league of their own, {PLAYER}.\l"
+	.string "We've got tricks up our sleeve that you\l"
+	.string "won't see anywhere else!\p"
+	.string "Are you ready?$"
+
+MtCeram_Caves_Greta_Battle_Text_3:
+# 42 "data//maps/MtCeram_Caves/scripts.pory"
+	.string "Spectacular!$"
+
+MtCeram_Caves_Greta_Battle_Text_4:
+# 44 "data//maps/MtCeram_Caves/scripts.pory"
+	.string "This feeling...I've been so focused on\n"
+	.string "business, I forgot what it was like to\l"
+	.string "be a trainer and battle! The adrenaline!\l"
+	.string "Oh Banette, I need to hold on to you.\p"
+	.string "Ahem.\p"
+	.string "{PLAYER} - that was incredible!\n"
+	.string "You're really worth your title.\p"
+	.string "Sigh...I feel like asking for a rematch,\n"
+	.string "but I can't leave my stall unmanned for\l"
+	.string "this long. I suppose my battling days\l"
+	.string "are behind me now.\p"
+	.string "See you around, {PLAYER}!$"
 
 MtCeram_Caves_Greta_Trigger0_Text_0:
 # 71 "data//maps/MtCeram_Caves/scripts.pory"

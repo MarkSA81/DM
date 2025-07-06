@@ -65,11 +65,12 @@ script LilyPondCave_Martha_Battle_Trigger2{
 }
 
 script LilyPondCave_Martha_Battle{
-    msgbox_delay("Martha", format(""))
+    msgbox_delay("Martha", format("Terrible, you are, making someone my age travel so far.\pBut I suppose I owe the Fifth Cormoria Champion a fitting welcome.\pYou know, back when I won the inagural Pokemon Championship, Cormoria was much younger...and much wilder!\lTrainers competed furiously for the prestige of being the inagural title!\pBut of course, there were many losers and only one victor.\pI have fond memories of those days, {PLAYER}. I wish I could show you the Cormoria that used to be!\pHaha! Not Ancient Cormoria!\nJust my era.\pBut these old bones haven't been sitting idle, you know? I've been keeping up with the times. Professor Tenebris gifted me a wonderful new Pokemon from the past!\p...\pIt's time {PLAYER}.\pThis is your final battle.\pLeave no regrets!"))
+    
+    trainerbattle_no_intro(TRAINER_CHAMPION_MARTHA, format("Oh my! A spectacular battle!"))
 
-    trainerbattle_no_intro(TRAINER_CHAMPION_MARTHA, format(""))
+    msgbox_delay("Martha", format("After I became the First Cormoria Champion, I tucked away my Trainer Card and pursued a career as a historian. All the other Champions did the same. I suppose that's what makes us Champions after all - we don't stop, for there are always new peaks to scale!\pYour journey never truly ends, {PLAYER}. Find your next peak and scale it!"))
 
-    msgbox_delay("Martha", format(""))
 
     applymovement(8, moves(walk_right walk_down * 7 walk_left walk_down))
     applymovement(9, moves(walk_right * 2 walk_down * 7 walk_left walk_down))

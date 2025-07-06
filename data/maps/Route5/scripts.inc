@@ -66,9 +66,9 @@ Route5_Lynch_Battle_Trigger_4:
 # 35 "data//maps/Route5/scripts.pory"
 	msgbox_delay Route5_Lynch_Battle_Trigger_Text_0, Route5_Lynch_Battle_Trigger_Text_1
 # 37 "data//maps/Route5/scripts.pory"
-	trainerbattle_no_intro TRAINER_CHAMPION_LYNCH, Route5_Lynch_Battle_Trigger_Text_1
+	trainerbattle_no_intro TRAINER_CHAMPION_LYNCH, Route5_Lynch_Battle_Trigger_Text_2
 # 39 "data//maps/Route5/scripts.pory"
-	msgbox_delay Route5_Lynch_Battle_Trigger_Text_0, Route5_Lynch_Battle_Trigger_Text_1
+	msgbox_delay Route5_Lynch_Battle_Trigger_Text_0, Route5_Lynch_Battle_Trigger_Text_3
 # 43 "data//maps/Route5/scripts.pory"
 	applymovement OBJ_EVENT_ID_PLAYER, Route5_Lynch_Battle_Trigger_Movement_1
 # 44 "data//maps/Route5/scripts.pory"
@@ -406,7 +406,44 @@ Route5_Lynch_Battle_Trigger_Text_0:
 
 Route5_Lynch_Battle_Trigger_Text_1:
 # 35 "data//maps/Route5/scripts.pory"
-	.string "$"
+	.string "My fellow ingredient hunter...and now\n"
+	.string "Fifth Cormoria Champion!\p"
+	.string "Ravine told me about your duel with him!\n"
+	.string "I've never seen him in such a mood - you\l"
+	.string "must've really lit him on fire!\p"
+	.string "I was never much of a battler, you\n"
+	.string "know? I'd always had one foot in the\l"
+	.string "kitchen. But my Pokemon and I grew\l"
+	.string "stronger and stronger, and we won the\l"
+	.string "Championship!\p"
+	.string "A great time! The best of my life!\p"
+	.string "Sigh...how time flies.\p"
+	.string "You'll be old in the blink of an eye too,\n"
+	.string "{PLAYER}! But while you're young, why\l"
+	.string "don't you light the same fire inside me\l"
+	.string "as well?$"
+
+Route5_Lynch_Battle_Trigger_Text_2:
+# 37 "data//maps/Route5/scripts.pory"
+	.string "Hydrapple! We actually lost!$"
+
+Route5_Lynch_Battle_Trigger_Text_3:
+# 39 "data//maps/Route5/scripts.pory"
+	.string "Do you know why we all asked you to\n"
+	.string "come to such offbeat locations?\p"
+	.string "No?\p"
+	.string "Imagine the press, the frenzy! Two\n"
+	.string "Champions colliding! The entire region\l"
+	.string "would descend upon us! And what of the\l"
+	.string "property damage? Our Pokemon are far\l"
+	.string "too strong to be let loose inside a\l"
+	.string "building.\p"
+	.string "No, this is much better.\p"
+	.string "Out in nature with nobody to disturb us.\n"
+	.string "Just the two of us, our partners, and\l"
+	.string "all our skills and experience.\p"
+	.string "And it really was lovely, don't you\n"
+	.string "think?$"
 
 Route5_NPC_A_Text_0:
 # 66 "data//maps/Route5/scripts.pory"

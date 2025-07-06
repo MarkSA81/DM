@@ -32,11 +32,11 @@ script Route5_Lynch_Battle_Trigger{
         waitmovement(0)
         special(RemoveCameraObject)
 
-        msgbox_delay("Lynch", format(""))
+        msgbox_delay("Lynch", format("My fellow ingredient hunter...and now Fifth Cormoria Champion!\pRavine told me about your duel with him! I've never seen him in such a mood - you must've really lit him on fire!\pI was never much of a battler, you know? I'd always had one foot in the kitchen. But my Pokemon and I grew stronger and stronger, and we won the Championship!\pA great time! The best of my life!\pSigh...how time flies.\pYou'll be old in the blink of an eye too, {PLAYER}! But while you're young, why don't you light the same fire inside me as well?"))
         
-        trainerbattle_no_intro(TRAINER_CHAMPION_LYNCH, format(""))
+        trainerbattle_no_intro(TRAINER_CHAMPION_LYNCH, format("Hydrapple! We actually lost!"))
 
-        msgbox_delay("Lynch", format(""))
+        msgbox_delay("Lynch", format("Do you know why we all asked you to come to such offbeat locations?\pNo?\pImagine the press, the frenzy! Two Champions colliding! The entire region would descend upon us! And what of the property damage? Our Pokemon are far too strong to be let loose inside a building.\pNo, this is much better.\pOut in nature with nobody to disturb us. Just the two of us, our partners, and all our skills and experience.\pAnd it really was lovely, don't you think?"))
 
 
         //exit
