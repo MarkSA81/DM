@@ -4,7 +4,58 @@ raw`
     .set LOCALID_VEN, 5
 `
 
-mapscripts MtCeram_Caves_MapScripts{}
+mapscripts MtCeram_Caves_MapScripts{
+    MAP_SCRIPT_ON_TRANSITION: MtCeram_Caves_OnTransition
+}
+
+script MtCeram_Caves_OnTransition{
+    if (flag(FLAG_CHAMPION_GRETA_COMPLETE)) {end}
+    if (flag(FLAG_CHAMPION_GRETA_SETUP)){
+        setobjectxyperm(6, 30, 43) //greta
+        setobjectxyperm(7, 29, 43) //banette
+        end
+    }    
+}
+
+script MtCeram_Caves_Banette{
+    lockall
+    playmoncry(SPECIES_BANETTE, CRY_MODE_NORMAL)
+    msgbox(format("Banette is looking at the wall."))
+    releaseall
+    end
+}
+
+script MtCeram_Caves_Greta_Battle{
+    lockall
+
+    msgbox_delay("Greta", format("I told {PLAYER} to come to where we first met...but was it here?\lOr was it somewhere else?"))
+
+    applymovement(6, moves(emote_exclamation_mark jump_in_place_down))
+    applymovement(7, moves(emote_exclamation_mark jump_in_place_down))
+    waitmovement(0)
+
+    delay(24)
+
+    msgbox_delay("Greta", format(""))
+
+    trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+
+    msgbox_delay("Greta", format(""))
+    applymovement(6, moves(walk_left walk_down * 2 walk_left * 7))
+    applymovement(7, moves(walk_left walk_right walk_down * 2 walk_left * 7))
+    waitmovement(0)
+
+    removeobject(6)
+    removeobject(7)
+
+    setflag(FLAG_CHAMPION_GRETA_COMPLETE)
+
+    releaseall
+    end
+
+}
+
+
 
 script MtCeram_Caves_Greta_Trigger0{
     if (flag(FLAG_CERAM_CAVES_GRETA_MEETING)) {end}
