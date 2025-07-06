@@ -1457,6 +1457,7 @@
 #define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
 
 // Towns and Cities
+#define FLAG_VISITED_CARABRUE_TOWN                  (SYSTEM_FLAGS + 0x22) // Unused Flag
 #define FLAG_VISITED_FENNILAHL_TOWN                 (SYSTEM_FLAGS + 0xF)
 #define FLAG_VISITED_GASTREE_CITY                   (SYSTEM_FLAGS + 0x10)
 #define FLAG_VISITED_CERAM_BASE_CAMP                (SYSTEM_FLAGS + 0x11)
@@ -1480,7 +1481,6 @@
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
 #define FLAG_SUPPRESS_SPEAKER_NAME                  (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
 #define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
 #define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
 #define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag

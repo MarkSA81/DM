@@ -1,6 +1,7 @@
 mapscripts CarabrueTown_MapScripts{
-    
-   //MAP_SCRIPT_ON_RESUME: CarabrueTown_TenebrisLab_OnResume
+    MAP_SCRIPT_ON_TRANSITION {
+        setflag(FLAG_VISITED_CARABRUE_TOWN)
+    }
 
     MAP_SCRIPT_ON_FRAME_TABLE [
         VAR_TEMP_0, 0: CarabrueTown_PostGame
@@ -14,7 +15,7 @@ script CarabrueTown_PostGame{
     if (flag(FLAG_SKIP_POSTGAME_MSG)) {releaseall end}
     if (flag(FLAG_SYS_GAME_CLEAR)){
         
-        msgbox(format("Thank you for playing Pokémon Dreamstone Mysteries and\lcongratulations on becoming\lthe Champion of Cormoria!\pBut tell me - is a Champion truly a Champion unless they've explored\lall of Cormoria?\pIn this game, completing the\nPokédex is not possible.\pWhy don't you try completing\nthe side-quests and catching\lthe 4 Mythical Pokémon available?"), MSGBOX_POKENAV)
+        msgbox(format("Thank you for playing Pokémon Dreamstone Mysteries and\lcongratulations on becoming\lthe Champion of Cormoria!\pBut tell me - is a Champion truly a Champion unless they've explored\lall of Cormoria?\pWhy don't you try completing\nthe side-quests and catching\lthe 4 Mythical Pokémon available?"), MSGBOX_POKENAV)
 
         setflag(FLAG_SKIP_POSTGAME_MSG)
         releaseall

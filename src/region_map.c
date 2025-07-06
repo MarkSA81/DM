@@ -1316,8 +1316,8 @@ static u8 GetMapsecType(u16 mapSecId)
     {
     case MAPSEC_NONE:
         return MAPSECTYPE_NONE;
-    // case MAPSEC_CARABRUE_TOWN:
-    //     return MAPSECTYPE_CITY_CANTFLY;
+    case MAPSEC_CARABRUE_TOWN:
+        return FlagGet(FLAG_VISITED_CARABRUE_TOWN) ? MAPSECTYPE_CITY_CANFLY : MAPSECTYPE_CITY_CANTFLY;
     case MAPSEC_FENNILAHL_TOWN:
         return FlagGet(FLAG_VISITED_FENNILAHL_TOWN) ? MAPSECTYPE_CITY_CANFLY : MAPSECTYPE_CITY_CANTFLY;
     case MAPSEC_GASTREE_CITY:
@@ -1977,7 +1977,7 @@ static void CreateFlyDestIcons(void)
     u8 spriteId;
 
     canFlyFlag = FLAG_VISITED_FENNILAHL_TOWN;
-    for (mapSecId = MAPSEC_FENNILAHL_TOWN; mapSecId <= MAPSEC_VICTORY_CAPE; mapSecId++)
+    for (mapSecId = MAPSEC_CARABRUE_TOWN; mapSecId <= MAPSEC_VICTORY_CAPE; mapSecId++)
     {
         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
         x = (x + MAPCURSOR_X_MIN) * 8 + 4;
