@@ -11,6 +11,17 @@ script Route5_OnTransition{
     }    
 }
 
+script Route5_SaveGame_Trigger{
+    if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)){end}   
+
+    if (flag(FLAG_CHAMPION_LYNCH_SETUP)){
+        setvar(VAR_TEMP_E, 1)
+        call(Common_EventScript_SaveGameBeforeBattle)
+        releaseall
+        end
+    }
+}
+
 script Route5_Lynch_Battle_Trigger{
     if (flag(FLAG_CHAMPION_LYNCH_COMPLETE)) {end}
 
@@ -23,7 +34,7 @@ script Route5_Lynch_Battle_Trigger{
 
         msgbox_delay("Lynch", format(""))
         
-        trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+        trainerbattle_no_intro(TRAINER_CHAMPION_LYNCH, format(""))
 
         msgbox_delay("Lynch", format(""))
 

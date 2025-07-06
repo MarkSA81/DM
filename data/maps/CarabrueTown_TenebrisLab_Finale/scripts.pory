@@ -51,9 +51,15 @@ script CarabrueTown_TenebrisLab_PostFinale{
     msgbox_delay("Detective", format("We're only doing our duty, Professor.\pWe also have people to thank...\pKohla of course, although he's not here now, was instrumental in chasing Team Somber across Cormoria. He's got the makings of a truly great detective!\pThe Gym Leaders are the ones who actually took Team Somber apart.\pThose two admins - Moxie and Melea - got away, but Inger and Ariana are with Gloria in Silversun City right now, clearing out their headquarters and retrieving all the Ancient Pokémon."))
 
     delay(16)
-    msgbox_delay("Tenebris", format("Once you return them to me, I'll send them back to the past along with the Ancient Terror."))
+    msgbox_delay("Tenebris", format("Once you return them to me, I'll send them back to the past."))
     
-    msgbox_delay("Detective", format("Definitely."))
+    msgbox_delay("Detective", format("And the Ancient Terror?"))
+    delay(16)
+    msgbox_delay("Tenebris", format("I'll be holding onto the Ancient Terror for a while. I am a Pokémon Professor after all!"))
+
+    msgbox_delay("Detective", format("Understandable. We hope your research is fruitful, Professor."))
+    delay(16)
+
 
     applymovement(LOCALID_TENE, moves(jump_in_place_left))
     waitmovement(0)

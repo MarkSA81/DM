@@ -12,13 +12,24 @@ script LilyPondCave_OnTransition{
     }
 }
 
+script LilyPondCave_SaveGame_Trigger{
+    if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)){end}   
+
+    if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
+        setvar(VAR_TEMP_E, 1)
+        call(Common_EventScript_SaveGameBeforeBattle)
+        releaseall
+        end
+    }
+}
+
 script LilyPondCave_Martha_Battle_Trigger0{
     if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
 
     if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
         special(SpawnCameraObject)
-        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2 walk_right face_up))
-        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up walk_right face_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2))
         waitmovement(0)
         special(RemoveCameraObject)
 
@@ -30,21 +41,22 @@ script LilyPondCave_Martha_Battle_Trigger1{
     
     if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
         special(SpawnCameraObject)
-        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2))
-        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2))
         waitmovement(0)
         special(RemoveCameraObject)
 
         goto(LilyPondCave_Martha_Battle)
     }
 }
+
 script LilyPondCave_Martha_Battle_Trigger2{
     if (flag(FLAG_CHAMPION_MARTHA_COMPLETE)) {end}
 
     if (flag(FLAG_CHAMPION_MARTHA_SETUP)){
         special(SpawnCameraObject)
-        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up * 2 walk_left face_up))
-        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 3))
+        applymovement(OBJ_EVENT_ID_PLAYER, moves(walk_up walk_left face_up))
+        applymovement(OBJ_EVENT_ID_CAMERA, moves(walk_up * 2))
         waitmovement(0)
         special(RemoveCameraObject)
 
@@ -52,13 +64,10 @@ script LilyPondCave_Martha_Battle_Trigger2{
     }
 }
 
-
-
-
 script LilyPondCave_Martha_Battle{
     msgbox_delay("Martha", format(""))
 
-    trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+    trainerbattle_no_intro(TRAINER_CHAMPION_MARTHA, format(""))
 
     msgbox_delay("Martha", format(""))
 

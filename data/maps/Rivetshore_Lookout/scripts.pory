@@ -13,7 +13,17 @@ script Rivetshore_Lookout_OnTransition{
 }
 
 
+//savegame
+script Rivetshore_Lookout_SaveGame_Trigger{
+    if (flag(FLAG_CHAMPION_RAVINE_COMPLETE)){end}   
 
+    if (flag(FLAG_CHAMPION_RAVINE_SETUP)){
+        setvar(VAR_TEMP_E, 1)
+        call(Common_EventScript_SaveGameBeforeBattle)
+        releaseall
+        end
+    }
+}
 
 //Battle
 script Rivetshore_Lookout_Ravine_Battle_Trigger{
@@ -32,7 +42,7 @@ script Rivetshore_Lookout_Ravine_Battle_Trigger{
 
         msgbox_delay("Ravine", format(""))
         
-        trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+        trainerbattle_no_intro(TRAINER_CHAMPION_RAVINE, format(""))
 
         msgbox_delay("Ravine", format(""))
 

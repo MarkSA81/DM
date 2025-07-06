@@ -339,6 +339,24 @@
       "var": "VAR_TEMP_0",
       "var_value": "0",
       "script": "Route5_Lynch_Battle_Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_E",
+      "var_value": "0",
+      "script": "Route5_SaveGame_Trigger"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_TEMP_E",
+      "var_value": "0",
+      "script": "Route5_SaveGame_Trigger"
     }
   ],
   "bg_events": [

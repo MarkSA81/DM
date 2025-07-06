@@ -27,6 +27,7 @@ script MtCeram_Caves_Banette{
 
 script MtCeram_Caves_Greta_Battle{
     lockall
+    call(Common_EventScript_SaveGameBeforeBattle)
 
     msgbox_delay("Greta", format("I told {PLAYER} to come to where we first met...but was it here?\lOr was it somewhere else?"))
 
@@ -38,7 +39,7 @@ script MtCeram_Caves_Greta_Battle{
 
     msgbox_delay("Greta", format(""))
 
-    trainerbattle_no_intro(TRAINER_ROUTE1_A, format(""))
+    trainerbattle_no_intro(TRAINER_CHAMPION_GRETA, format(""))
 
     msgbox_delay("Greta", format(""))
     applymovement(6, moves(walk_left walk_down * 2 walk_left * 7))

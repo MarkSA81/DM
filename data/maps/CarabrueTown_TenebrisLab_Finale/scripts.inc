@@ -77,133 +77,141 @@ CarabrueTown_TenebrisLab_PostFinale::
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_7
 # 56 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_8
+# 57 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 16
 # 58 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_4
-# 59 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	waitmovement 0
-# 60 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
-# 61 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_9
-# 63 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_DET1, CarabrueTown_TenebrisLab_PostFinale_Movement_1
-# 64 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	waitmovement 0
-# 65 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
-# 66 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 60 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_10
-# 68 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_DET1, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+# 61 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 16
+# 64 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_4
+# 65 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	waitmovement 0
+# 66 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 16
+# 67 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_11
 # 69 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_DET2, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+	applymovement LOCALID_DET1, CarabrueTown_TenebrisLab_PostFinale_Movement_1
 # 70 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+	waitmovement 0
 # 71 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	waitmovement 0
+	delay 16
 # 72 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 32
-# 73 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_11
-# 75 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_6
-# 76 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	waitmovement 0
-# 77 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
-# 78 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_12
-# 80 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_12
+# 74 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	applymovement LOCALID_DET1, CarabrueTown_TenebrisLab_PostFinale_Movement_5
-# 81 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 75 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_DET2, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+# 76 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+# 77 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	waitmovement 0
-# 82 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
-# 83 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 78 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 32
+# 79 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_13
-# 85 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 81 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_6
-# 86 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 82 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	waitmovement 0
-# 87 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 83 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	delay 16
-# 88 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 84 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_14
-# 90 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement OBJ_EVENT_ID_PLAYER, CarabrueTown_TenebrisLab_PostFinale_Movement_2
-# 91 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 86 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_DET1, CarabrueTown_TenebrisLab_PostFinale_Movement_5
+# 87 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	waitmovement 0
+# 88 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 16
+# 89 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_15
+# 91 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_6
 # 92 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	waitmovement 0
+# 93 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	delay 16
 # 94 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_15
-# 95 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_6
-# 96 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	waitmovement 0
-# 97 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
-# 98 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_16
-# 99 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	giveitem ITEM_HM07
+# 96 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement OBJ_EVENT_ID_PLAYER, CarabrueTown_TenebrisLab_PostFinale_Movement_2
+# 97 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	waitmovement 0
+# 98 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	delay 16
 # 100 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_17
+# 101 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	applymovement LOCALID_TENE, CarabrueTown_TenebrisLab_PostFinale_Movement_6
 # 102 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	delay 16
+	waitmovement 0
 # 103 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_18
+	delay 16
+# 104 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_18
+# 105 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	giveitem ITEM_HM07
 # 106 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	setflag FLAG_POST_FINALE_CUTSCENE
-# 107 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	setflag FLAG_HIDE_ROUTE1_NORMAL
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_2, CarabrueTown_TenebrisLab_PostFinale_Text_19
 # 108 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	clearflag FLAG_HIDE_ROUTE1_STRONG
+	delay 16
 # 109 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	clearflag FLAG_HIDE_TENEBRIS_TENEBRIS
-# 110 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	completequest QUEST_STOP_TEAM_SOMBER
+	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, CarabrueTown_TenebrisLab_PostFinale_Text_20
 # 112 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	setflag FLAG_POST_FINALE_CUTSCENE
+# 113 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	setflag FLAG_HIDE_ROUTE1_NORMAL
+# 114 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	clearflag FLAG_HIDE_ROUTE1_STRONG
+# 115 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	clearflag FLAG_HIDE_TENEBRIS_TENEBRIS
+# 116 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	completequest QUEST_STOP_TEAM_SOMBER
+# 118 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	releaseall
 	end
 
 
 TenebrisLab_Finale_Detective::
-# 117 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 123 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	speakername CarabrueTown_TenebrisLab_PostFinale_Text_0
-# 118 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 124 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox TenebrisLab_Finale_Detective_Text_0, MSGBOX_NPC
 	end
 
 
 TenebrisLab_Finale_Tenebris::
-# 122 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 128 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox_delay CarabrueTown_TenebrisLab_PostFinale_Text_0, TenebrisLab_Finale_Tenebris_Text_0
 	end
 
 
 TenebrisLab_Finale_Scientist_A::
-# 130 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 136 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox TenebrisLab_Finale_Scientist_A_Text_0, MSGBOX_NPC
 	end
 
 
 TenebrisLab_Finale_Scientist_B::
-# 134 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 140 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox TenebrisLab_Finale_Scientist_B_Text_0, MSGBOX_NPC
 	end
 
 
 TenebrisLab_Finale_Scientist_C::
-# 138 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 144 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox TenebrisLab_Finale_Scientist_C_Text_0, MSGBOX_NPC
 	end
 
 
 TenebrisLab_Finale_Gardevoir::
-# 142 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 148 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	playmoncry SPECIES_GARDEVOIR, CRY_MODE_NORMAL
-# 143 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 149 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	msgbox TenebrisLab_Finale_Gardevoir_Text_0, MSGBOX_NPC
 	return
 
@@ -240,15 +248,15 @@ CarabrueTown_TenebrisLab_PostFinale_Movement_4:
 	jump_in_place_left
 	step_end
 
-# 68 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 74 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 CarabrueTown_TenebrisLab_PostFinale_Movement_5:
-# 68 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 74 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	face_down
 	step_end
 
-# 75 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 81 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 CarabrueTown_TenebrisLab_PostFinale_Movement_6:
-# 75 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 81 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	jump_in_place_down
 	step_end
 
@@ -300,43 +308,53 @@ CarabrueTown_TenebrisLab_PostFinale_Text_6:
 CarabrueTown_TenebrisLab_PostFinale_Text_7:
 # 54 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Once you return them to me, I'll send\n"
-	.string "them back to the past along with the\l"
-	.string "Ancient Terror.$"
+	.string "them back to the past.$"
 
 CarabrueTown_TenebrisLab_PostFinale_Text_8:
 # 56 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	.string "Definitely.$"
+	.string "And the Ancient Terror?$"
 
 CarabrueTown_TenebrisLab_PostFinale_Text_9:
-# 61 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
-	.string "So it was a team effort then?$"
+# 58 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	.string "I'll be holding onto the Ancient Terror\n"
+	.string "for a while. I am a Pokémon Professor\l"
+	.string "after all!$"
 
 CarabrueTown_TenebrisLab_PostFinale_Text_10:
-# 66 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 60 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	.string "Understandable. We hope your research\n"
+	.string "is fruitful, Professor.$"
+
+CarabrueTown_TenebrisLab_PostFinale_Text_11:
+# 67 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+	.string "So it was a team effort then?$"
+
+CarabrueTown_TenebrisLab_PostFinale_Text_12:
+# 72 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Absolutely.\p"
 	.string "There was no solving this case without\n"
 	.string "Kohla and the Gym Leaders...\p"
 	.string "...$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_11:
-# 73 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_13:
+# 79 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "...and you, {PLAYER}.$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_12:
-# 78 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_14:
+# 84 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "{PLAYER}, you were just incredible.\n"
 	.string "You stood up against a huge\l"
 	.string "organisation like Team Somber and\l"
 	.string "fought them off time and again!$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_13:
-# 83 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_15:
+# 89 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Even after you were taken off the case,\n"
 	.string "you did what was right, {PLAYER}.\p"
 	.string "We're in your debt.$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_14:
-# 88 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_16:
+# 94 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "I couldn't be prouder of my newest\n"
 	.string "research associate.\p"
 	.string "Now that all of this is finished,\n"
@@ -344,15 +362,15 @@ CarabrueTown_TenebrisLab_PostFinale_Text_14:
 	.string "...but before you rejoin the lab,\n"
 	.string "there is one last thing to do.$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_15:
-# 94 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_17:
+# 100 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "The detectives told me that you\n"
 	.string "defeated Leader Raazi.\p"
 	.string "You know what that means, right?\p"
 	.string "...$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_16:
-# 98 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_18:
+# 104 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "You've qualified for this year's\n"
 	.string "Pokémon Championship!\p"
 	.string "The Championship is held every four\n"
@@ -360,8 +378,8 @@ CarabrueTown_TenebrisLab_PostFinale_Text_16:
 	.string "You can get there by surfing from Route\n"
 	.string "2, but you'll need this.$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_17:
-# 100 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_19:
+# 106 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Don't worry - we can start your\n"
 	.string "research work when you're back.\p"
 	.string "{PLAYER}, of all the trainers I've\n"
@@ -369,8 +387,8 @@ CarabrueTown_TenebrisLab_PostFinale_Text_17:
 	.string "that you do.\p"
 	.string "I know you'll do well at the tournament!$"
 
-CarabrueTown_TenebrisLab_PostFinale_Text_18:
-# 103 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+CarabrueTown_TenebrisLab_PostFinale_Text_20:
+# 109 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "...\p"
 	.string "Well?\p"
 	.string "What are you waiting for?\p"
@@ -378,32 +396,32 @@ CarabrueTown_TenebrisLab_PostFinale_Text_18:
 	.string "Victory Cape - ASAP!$"
 
 TenebrisLab_Finale_Detective_Text_0:
-# 118 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 124 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "What's taking you so long? I bet Kohla's\n"
 	.string "already reached Victory Cape.\p"
 	.string "How many slow starts do you need to\n"
 	.string "learn your lesson?$"
 
 TenebrisLab_Finale_Tenebris_Text_0:
-# 122 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 128 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "I believe in you, {PLAYER}!$"
 
 TenebrisLab_Finale_Scientist_A_Text_0:
-# 130 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 136 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "I can't believe Rue was behind this\n"
 	.string "whole mess! I wish I'd caught on sooner!$"
 
 TenebrisLab_Finale_Scientist_B_Text_0:
-# 134 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 140 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "The detectives told us the entire\n"
 	.string "story. You're incredible, {PLAYER}!$"
 
 TenebrisLab_Finale_Scientist_C_Text_0:
-# 138 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 144 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Go on, {PLAYER}! Bring the\n"
 	.string "championship trophy to Carabrue Town!$"
 
 TenebrisLab_Finale_Gardevoir_Text_0:
-# 143 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
+# 149 "data//maps/CarabrueTown_TenebrisLab_Finale/scripts.pory"
 	.string "Gardevoir regards you intently...\p"
 	.string "Did it smile?$"
