@@ -31,18 +31,55 @@ script MirrohInterior_2F_CavePainting_WalkingWake{
     msgbox(format("It's an ancient cave painting..."))
     release
     delay(8)
-    msgbox(format("Scanning the ancient statue\nwith the Archaeolens..."))
-    playse(SE_CLICK)
-    delay(8)
-    msgbox(format("Done!"))    
-    release
-    delay(8)
-    msgbox(format("It's a never before seen Pokémon! It looks reptilian, but also has feathers.\pTerrifying!"))
 
+    checkitem(ITEM_ARCHAEOLENS_2)
+    if (var(VAR_RESULT) == TRUE){
+        //a descrption of koraidon
+        msgbox(format("Scanning the ancient painting\nwith the Archaeolens 2.0..."))
+        playse(SE_CLICK)
+        delay(8)
+        msgbox(format("Done!"))    
+        release
+        delay(8)
+        msgbox(format("It's a never before seen Pokémon! It looks reptilian, but also has feathers.\pTerrifying!"))
+        release
+        delay(8)
+
+        if (!flag(FLAG_ROARING_MOON)){
+            setvar(VAR_0x8004, 2)  //vertical pan
+            setvar(VAR_0x8005, 2)  //horizontal pan
+            setvar(VAR_0x8006, 30)  //num shakes
+            setvar(VAR_0x8007, 5)  //shake delay
+            special(ShakeCamera)
+            waitstate
+            release
+
+            msgbox(format("What was that?\p...\pThe Archaeolens 2.0 is overheating!\nWhat's happening?"))
+            delay(8)
+
+            setflag(FLAG_ROARING_MOON)
+
+            setwildbattle(SPECIES_ROARING_MOON, 50)
+            dowildbattle
+
+            releaseall
+            end
+        }
+
+    } else {
+        msgbox(format("Scanning the ancient painting\nwith the Archaeolens..."))
+        playse(SE_CLICK)
+        delay(8)
+        msgbox(format("Done!"))    
+        release
+        delay(8)
+        msgbox(format("It's a never before seen Pokémon! It looks reptilian, but also has feathers.\pTerrifying!"))
+        releaseall
+    }
+    
     releaseall
     end
 }
-
 
 
 

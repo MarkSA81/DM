@@ -326,8 +326,8 @@
 
 //Paradoxes
 #define FLAG_GREAT_TUSK                                             0x4D1 // Unused Flag
-#define FLAG_UNUSED_0x4D2                                           0x4D2 // Unused Flag
-#define FLAG_UNUSED_0x4D3                                           0x4D3 // Unused Flag
+#define FLAG_FLUTTER_MANE                                           0x4D2 // Unused Flag
+#define FLAG_ROARING_MOON                                           0x4D3 // Unused Flag
 
 //Legendaries
 #define FLAG_CELEBI                                                 0x4D4 // Unused Flag
