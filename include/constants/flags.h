@@ -325,7 +325,7 @@
 
 
 //Paradoxes
-#define FLAG_UNUSED_0x4D1                                           0x4D1 // Unused Flag
+#define FLAG_GREAT_TUSK                                             0x4D1 // Unused Flag
 #define FLAG_UNUSED_0x4D2                                           0x4D2 // Unused Flag
 #define FLAG_UNUSED_0x4D3                                           0x4D3 // Unused Flag
 

@@ -60,7 +60,60 @@ script Route6_Zeraora{
 
 //ancient scripture
 script Route6_Zeraora_AncientCarving{
-    msgbox(format("It's an ancient carving..."), MSGBOX_NPC)
+    //a descrption of koraidon
+    msgbox(format("It's an ancient cave painting..."))
+    release
+    delay(8)
+
+    checkitem(ITEM_ARCHAEOLENS_2)
+    if (var(VAR_RESULT) == TRUE){
+        msgbox(format("Scanning the ancient painting\nwith the Archaeolens 2.0..."))
+        playse(SE_CLICK)
+        delay(8)
+        msgbox(format("Done!"))    
+        release
+        delay(8)
+        msgbox(format("It's a never before seen Pokémon!\nIt looks fierce, with huge tusks.\pTerrifying!"))
+        release
+        delay(8)
+
+        if (!flag(FLAG_GREAT_TUSK)){
+            setvar(VAR_0x8004, 2)  //vertical pan
+            setvar(VAR_0x8005, 2)  //horizontal pan
+            setvar(VAR_0x8006, 30)  //num shakes
+            setvar(VAR_0x8007, 5)  //shake delay
+            special(ShakeCamera)
+            waitstate
+            release
+
+            msgbox(format("What was that?\p...\pThe Archaeolens 2.0 is overheating!\nWhat's happening?"))
+            delay(8)
+
+            setflag(FLAG_GREAT_TUSK)
+
+            setwildbattle(SPECIES_GREAT_TUSK, 50)
+            dowildbattle
+
+            releaseall
+            end
+        }
+
+    } else {
+        msgbox(format("Scanning the ancient painting\nwith the Archaeolens..."))
+        playse(SE_CLICK)
+        delay(8)
+        msgbox(format("Done!"))    
+        release
+        delay(8)
+        msgbox(format("It's a never before seen Pokémon!\nIt looks fierce, with huge tusks.\pTerrifying!"))
+        releaseall
+
+    }
+    
+    releaseall
     end
 }
+
+
+
 

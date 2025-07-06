@@ -53,8 +53,88 @@ Route6_Zeraora::
 
 
 Route6_Zeraora_AncientCarving::
-# 63 "data//maps/Route6_ZeraoraCave/scripts.pory"
-	msgbox Route6_Zeraora_AncientCarving_Text_0, MSGBOX_NPC
+# 64 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_0
+# 65 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	release
+# 66 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 68 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	checkitem ITEM_ARCHAEOLENS_2
+# 69 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	compare VAR_RESULT, TRUE
+	goto_if_eq Route6_Zeraora_AncientCarving_2
+# 102 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_5
+# 103 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	playse SE_CLICK
+# 104 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 105 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_2
+# 106 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	release
+# 107 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 108 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_3
+# 109 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	releaseall
+Route6_Zeraora_AncientCarving_1:
+# 113 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	releaseall
+	end
+
+Route6_Zeraora_AncientCarving_2:
+# 70 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_1
+# 71 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	playse SE_CLICK
+# 72 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 73 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_2
+# 74 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	release
+# 75 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 76 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_3
+# 77 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	release
+# 78 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 80 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	goto_if_unset FLAG_GREAT_TUSK, Route6_Zeraora_AncientCarving_5
+	goto Route6_Zeraora_AncientCarving_1
+
+Route6_Zeraora_AncientCarving_5:
+# 81 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setvar VAR_0x8004, 2
+# 82 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setvar VAR_0x8005, 2
+# 83 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setvar VAR_0x8006, 30
+# 84 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setvar VAR_0x8007, 5
+# 85 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	special ShakeCamera
+# 86 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	waitstate
+# 87 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	release
+# 89 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	msgbox Route6_Zeraora_AncientCarving_Text_4
+# 90 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	delay 8
+# 92 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setflag FLAG_GREAT_TUSK
+# 94 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	setwildbattle SPECIES_GREAT_TUSK, 50
+# 95 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	dowildbattle
+# 97 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	releaseall
 	end
 
 
@@ -94,5 +174,32 @@ Route6_Zeraora_Text_0:
 	.string "the Pokédex record it?$"
 
 Route6_Zeraora_AncientCarving_Text_0:
-# 63 "data//maps/Route6_ZeraoraCave/scripts.pory"
-	.string "It's an ancient carving...$"
+# 64 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "It's an ancient cave painting...$"
+
+Route6_Zeraora_AncientCarving_Text_1:
+# 70 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "Scanning the ancient painting\n"
+	.string "with the Archaeolens 2.0...$"
+
+Route6_Zeraora_AncientCarving_Text_2:
+# 73 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "Done!$"
+
+Route6_Zeraora_AncientCarving_Text_3:
+# 76 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "It's a never before seen Pokémon!\n"
+	.string "It looks fierce, with huge tusks.\p"
+	.string "Terrifying!$"
+
+Route6_Zeraora_AncientCarving_Text_4:
+# 89 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "What was that?\p"
+	.string "...\p"
+	.string "The Archaeolens 2.0 is overheating!\n"
+	.string "What's happening?$"
+
+Route6_Zeraora_AncientCarving_Text_5:
+# 102 "data//maps/Route6_ZeraoraCave/scripts.pory"
+	.string "Scanning the ancient painting\n"
+	.string "with the Archaeolens...$"
