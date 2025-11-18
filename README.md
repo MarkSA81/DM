@@ -36,15 +36,12 @@ And loads of Quality-of-Life Features...
 * …and much more waiting to be discovered!
 
 # WALKTHROUGH
-Check out the full no-commentary walkthrough, provided by the goat Kouteshi!
-https://www.youtube.com/watch?v=gmAT-xGE-os
+Check out the [full no-commentary walkthrough](https://www.youtube.com/watch?v=gmAT-xGE-os), provided by Kouteshi!
 
 # DOCS & COMMUNITY
-Check out the documentation here!
-https://docs.google.com/spreadsheets/d/1L-I9FXE_Xuv_lDzIr1W1IVOqAqGFNHhpl1hrbVnrgDw/edit?gid=0#gid=0
+[Check out the documentation here!](https://docs.google.com/spreadsheets/d/1L-I9FXE_Xuv_lDzIr1W1IVOqAqGFNHhpl1hrbVnrgDw/edit?gid=0#gid=0)
 
-For further questions, join the Discord server:
-https://discord.gg/7GNBupP6xw
+For further questions, [join the Discord server](https://discord.gg/7GNBupP6xw).
 
 # CREDITS
 To my testers - a heartfelt thank you to all of you and your incredible testing and feedback. So many good conversations, so many new perspectives. Without you all, this game would be a tenth of what it is now. Eternal love and gratitude.
@@ -73,7 +70,8 @@ Special Thanks
 
 Partners
 
-Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were so professional and supportive. People know about this game because of you.
+Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were incredibly professional and supportive and this game wouldn't be as good of a player experience without you two.
+
 * Distribution |	PokeHarbor
 * YouTube |	Kouteshi
 
