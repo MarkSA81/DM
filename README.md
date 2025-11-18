@@ -5,11 +5,7 @@ Download the patch (no ROM provided) or compile from source, following the instr
 
 <img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/c0419035-3b2b-48b8-9c1f-3366cee37083" />
 
-Hack of: Emerald
-Type: Vanilla+
-Updated: July 7, 2025
-Language: English
-Status: Completed
+A ROMHack based on Pokemon Emerald. Classic Pokemon gameplay in an exciting new region.
 
 # JOURNEY THROUGH CORMORIA
 Embark on an epic adventure across the all-new region of Cormoria, traveling with your loyal Pokémon through frozen mountains, fiery craters, misty swamps, bustling cities, and shadowy sewers. Your goal: track down the missing Professor Tenebris and unravel the mystery behind the enigmatic Dreamstones she uncovered. What hidden power do these stones hold—and why will Team Somber stop at nothing to claim them? The fate of Cormoria rests in your hands.
