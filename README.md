@@ -1,6 +1,9 @@
 # Pokemon Dreamstone Mysteries
 
-<img width="1600" height="1600" alt="image" src="https://github.com/user-attachments/assets/c0419035-3b2b-48b8-9c1f-3366cee37083" />
+Welcome to the open-source repository of Pokemon Dreamstone Mysteries! 
+Download the patch (no ROM provided) or compile from source, following the instructions in the pokeemerald-expansion repository.
+
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/c0419035-3b2b-48b8-9c1f-3366cee37083" />
 
 Hack of: Emerald
 Type: Vanilla+
@@ -53,4 +56,44 @@ Codai | Leilyprince | primus | VanWhalen
 FRANKIEEE | LooYaw | ptrck | vel
 Zanders | Zeref | Ktull | TYRANT OF DESPAIR
 
+Special Thanks
+BroDudeIII, who designed the beautiful badge icons + the delicious-looking Apple Pie icon. Chef’s kiss!
+Bivurnum, who developed the fishing minigame and took out the time to patiently solve bugs and even customised some elements of it for this game. Extremely grateful!
+
+Partners
+Thank you both for your patience, effort and collaboration to make this game come alive. Both of you were so professional and supportive. People know about this game because of you.
+
+Distribution |	PokeHarbor
+YouTube |	Kouteshi
+
+Additional Credits
+This game is built on the work of many talented contributors to the ROM Hacking community. Without the work and contributions of names below, this game does not exist.
+
+ROM Base (pokeemerald) | pret
+pokeemerald-expansion | RHH
+Fishing Minigame | Bivurnum
+Mining Minigame | vol8
+Game Corner Minigames | Chris Piche (ported by AGSMG64)
+Console Minigames | Chris Piche (ported by AGSMG64)
+Battle Speed-Up | Pokabbie (ported by AlexOn1ine)
+Main Menu | Archie (graphics by Mudskip)
+Pokemon Party Menu | Archie
+Pokemon Summary Screen | RavePossum
+Quest System | pkmnsnfrm (Original system – Skeli)
+Trainer Sprites | GBA Sprites Pack (compiled by LibertyTwins), CDRX73, Rubire4, hyo
+Trainer Overworlds | GBA Sprites Pack (compiled by LibertyTwins), kwenio, hyo
+Battle Backgrounds | GBA Sprites Pack (compiled by LibertyTwins)
+
+
+
+
+
+
+A game by dsmyst.
+
+
+
+
+
+The  Pokémon Universe is created, managed and promoted by Nintendo, GameFreak and The Pokémon Company, to whom credit goes in inspiring wonder and fantasy in generation after generation of young minds.
 
