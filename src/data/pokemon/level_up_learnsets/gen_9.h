@@ -5790,6 +5790,7 @@ static const struct LevelUpMove sPinecoLevelUpLearnset[] = {
 
 static const struct LevelUpMove sForretressLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_HEAVY_SLAM),
+    LEVEL_UP_MOVE( 1, MOVE_IRON_HEAD,
     LEVEL_UP_MOVE( 1, MOVE_MAGNET_RISE),
     LEVEL_UP_MOVE( 1, MOVE_TOXIC_SPIKES),
     LEVEL_UP_MOVE( 1, MOVE_BUG_BITE),
@@ -11774,6 +11775,7 @@ static const struct LevelUpMove sHerdierLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sStoutlandLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_SLACK_OFF),
     LEVEL_UP_MOVE( 1, MOVE_ICE_FANG),
     LEVEL_UP_MOVE( 1, MOVE_FIRE_FANG),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_FANG),
