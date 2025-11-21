@@ -12102,9 +12102,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FOREWARN, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INSOMNIA, ABILITY_PSYCHIC SURGE , ABILITY_INNER_FOCUS },
     #else
-        .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INSOMNIA, ABILITY_PSYCHIC SURGE , ABILITY_INNER_FOCUS },
     #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Drowzee"),
@@ -12178,9 +12178,9 @@ const struct SpeciesInfo gSpeciesInfoGen1[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
     #if P_UPDATED_ABILITIES >= GEN_4
-        .abilities = { ABILITY_INSOMNIA, ABILITY_FOREWARN, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INSOMNIA, ABILITY_PSYCHIC SURGE , ABILITY_INNER_FOCUS },
     #else
-        .abilities = { ABILITY_INSOMNIA, ABILITY_NONE, ABILITY_INNER_FOCUS },
+        .abilities = { ABILITY_INSOMNIA, ABILITY_PSYCHIC SURGE , ABILITY_INNER_FOCUS },
     #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .speciesName = _("Hypno"),
