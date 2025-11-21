@@ -19623,6 +19623,7 @@ static const u16 sDusclopsTeachableLearnset[] = {
     MOVE_ICY_WIND,
     MOVE_PHANTOM_FORCE,
     MOVE_PSYCHIC,
+    MOVE_CLOSE_COMBAT,
     MOVE_REST,
     MOVE_ROCK_SLIDE,
     MOVE_ROCK_SMASH,
