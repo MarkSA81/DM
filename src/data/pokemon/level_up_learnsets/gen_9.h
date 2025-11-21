@@ -13257,6 +13257,8 @@ static const struct LevelUpMove sCinccinoLevelUpLearnset[] = {
 
 #if P_FAMILY_GOTHITA
 static const struct LevelUpMove sGothitaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_COSMIC_POWER),
+    LEVEL_UP_MOVE( 1, MOVE_WISH),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 4, MOVE_PLAY_NICE),
@@ -13275,6 +13277,8 @@ static const struct LevelUpMove sGothitaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sGothoritaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_COSMIC_POWER),
+    LEVEL_UP_MOVE( 1, MOVE_WISH,
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
@@ -13292,6 +13296,8 @@ static const struct LevelUpMove sGothoritaLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sGothitelleLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_COSMIC_POWER),
+    LEVEL_UP_MOVE( 1, MOVE_WISH,
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
