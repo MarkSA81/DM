@@ -11995,6 +11995,7 @@ static const struct LevelUpMove sTranquillLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sUnfezantLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
