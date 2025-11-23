@@ -44,6 +44,8 @@ Check out the [full no-commentary walkthrough](https://www.youtube.com/watch?v=g
 For further questions, [join the Discord server](https://discord.gg/7GNBupP6xw).
 
 # CREDITS
+FUN FACT: All the Ace Trainers in the game are named after the beta testers! They even chose their own teams and playstyles, so you're actually playing against real players.
+
 To my testers - a heartfelt thank you to all of you and your incredible testing and feedback. So many good conversations, so many new perspectives. Without you all, this game would be a tenth of what it is now. Eternal love and gratitude.
 
 Grim | AngusGhost | BroDudeIII | Eden
