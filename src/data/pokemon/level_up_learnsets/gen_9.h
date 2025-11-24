@@ -7158,6 +7158,7 @@ static const struct LevelUpMove sLinooneGalarLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_SAND_ATTACK),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
+    LEVEL_UP_MOVE( 1, MOVE_EXTREME_SPEED),
     LEVEL_UP_MOVE( 9, MOVE_SNARL),
     LEVEL_UP_MOVE(12, MOVE_HEADBUTT),
     LEVEL_UP_MOVE(15, MOVE_HONE_CLAWS),
@@ -11773,6 +11774,7 @@ static const struct LevelUpMove sHerdierLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sStoutlandLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_SLACK_OFF),
     LEVEL_UP_MOVE( 1, MOVE_ICE_FANG),
     LEVEL_UP_MOVE( 1, MOVE_FIRE_FANG),
     LEVEL_UP_MOVE( 1, MOVE_THUNDER_FANG),
@@ -13269,12 +13271,13 @@ static const struct LevelUpMove sGothitaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(33, MOVE_PSYCH_UP),
     LEVEL_UP_MOVE(36, MOVE_PSYCHIC),
     LEVEL_UP_MOVE(40, MOVE_FLATTER),
-    LEVEL_UP_MOVE(44, MOVE_FUTURE_SIGHT),
+    LEVEL_UP_MOVE(44, MOVE_WISH),
     LEVEL_UP_MOVE(48, MOVE_MAGIC_ROOM),
     LEVEL_UP_END
 };
 
 static const struct LevelUpMove sGothoritaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, COSMIC_POWER),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
@@ -13286,12 +13289,13 @@ static const struct LevelUpMove sGothoritaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(28, MOVE_FAKE_TEARS),
     LEVEL_UP_MOVE(35, MOVE_PSYCH_UP),
     LEVEL_UP_MOVE(46, MOVE_FLATTER),
-    LEVEL_UP_MOVE(52, MOVE_FUTURE_SIGHT),
+    LEVEL_UP_MOVE(52, MOVE_WISH),
     LEVEL_UP_MOVE(58, MOVE_MAGIC_ROOM),
     LEVEL_UP_END
 };
 
 static const struct LevelUpMove sGothitelleLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_FUTURE_SIGHT),
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
     LEVEL_UP_MOVE( 1, MOVE_TICKLE),
@@ -13304,7 +13308,7 @@ static const struct LevelUpMove sGothitelleLevelUpLearnset[] = {
     LEVEL_UP_MOVE(35, MOVE_PSYCH_UP),
     LEVEL_UP_MOVE(40, MOVE_PSYCHIC),
     LEVEL_UP_MOVE(48, MOVE_FLATTER),
-    LEVEL_UP_MOVE(56, MOVE_FUTURE_SIGHT),
+    LEVEL_UP_MOVE(56, MOVE_WISH),
     LEVEL_UP_MOVE(64, MOVE_MAGIC_ROOM),
     LEVEL_UP_END
 };
