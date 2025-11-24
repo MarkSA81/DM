@@ -9978,6 +9978,7 @@ static const u16 sBayleefTeachableLearnset[] = {
 };
 
 static const u16 sMeganiumTeachableLearnset[] = {
+    MOVE_DAZZLING_GLEAM,
     MOVE_EARTHQUAKE,
     MOVE_ENCORE,
     MOVE_ENDEAVOR,
