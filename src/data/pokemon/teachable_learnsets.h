@@ -33846,6 +33846,7 @@ static const u16 sNoivernTeachableLearnset[] = {
     MOVE_GIGA_IMPACT,
     MOVE_HURRICANE,
     MOVE_HYPER_BEAM,
+    MOVE_NASTY_PLOT,
     MOVE_OUTRAGE,
     MOVE_PSYCHIC,
     MOVE_REST,
