@@ -9943,6 +9943,7 @@ static const u16 sChikoritaTeachableLearnset[] = {
 };
 
 static const u16 sBayleefTeachableLearnset[] = {
+    MOVE_DAZZLING_GLEAM,
     MOVE_ENCORE,
     MOVE_ENDURE,
     MOVE_FACADE,
@@ -9978,6 +9979,8 @@ static const u16 sBayleefTeachableLearnset[] = {
 };
 
 static const u16 sMeganiumTeachableLearnset[] = {
+    MOVE_CALM_MIND,
+    MOVE_DAZZLING_GLEAM,
     MOVE_EARTHQUAKE,
     MOVE_ENCORE,
     MOVE_ENDEAVOR,
@@ -19326,6 +19329,7 @@ static const u16 sFeebasTeachableLearnset[] = {
 
 static const u16 sMiloticTeachableLearnset[] = {
     MOVE_BLIZZARD,
+    MOVE_CALM_MIND,
     MOVE_CONFUSE_RAY,
     MOVE_DIVE,
     MOVE_DRAGON_DANCE,
