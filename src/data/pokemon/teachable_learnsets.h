@@ -11703,6 +11703,7 @@ static const u16 sYanmegaTeachableLearnset[] = {
     MOVE_GIGA_DRAIN,
     MOVE_GIGA_IMPACT,
     MOVE_HYPER_BEAM,
+    MOVE_NASTY_PLOT,
     MOVE_POUNCE,
     MOVE_PSYCHIC,
     MOVE_REST,
