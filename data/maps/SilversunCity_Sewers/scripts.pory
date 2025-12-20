@@ -298,7 +298,6 @@ script SilversunCity_Sewers_Market_A{
 }
 
 mart SilversunCity_Sewers_Market_A_Inventory{
-    ITEM_TM69
     ITEM_TM66
     ITEM_TM11
     ITEM_TM72

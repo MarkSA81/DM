@@ -438,7 +438,6 @@ script IvyRiver_Ranger_NPC_D{
 }
 
 mart IvyRiver_Ranger_Mart{
-    ITEM_TM48
     ITEM_TM38
     ITEM_TM57
     ITEM_TM59
