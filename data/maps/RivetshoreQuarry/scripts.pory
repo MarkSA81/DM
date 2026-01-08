@@ -281,17 +281,6 @@ script Rivetshore_Quarry_Aron{
     end
 }
 
-script Rivetshore_Quarry_Aron_Reset{
-    playmoncry(SPECIES_ARON, CRY_MODE_NORMAL)
-    msgbox_delay(format("Restart puzzle?"), MSGBOX_YESNO)
-    if (var(VAR_RESULT) == 0){end}
-    playse(SE_DOOR)
-    warp(MAP_RIVETSHORE_QUARRY_INTERIOR, 18, 28)
-    releaseall
-    end
-}
-
-
 script Rivetshore_Raazi_Talk{
     lockall
     msgbox_delay("Raazi", format("You managed to come out of that cave unscathed?\pI'm impressed.\p...\pOr perhaps it's simply time for me to expand the cave?\pNo matter - a trainer who faces me is a trainer who I must face.\pI am Raazi! The Gym Leader of Rivetshore City and the strongest leader in all of Cormoria. Few trainers posess enough grit to reach where you stand, {PLAYER}. But their fate is to be crushed by my hand! Will you fall? Or will you rise?"))
