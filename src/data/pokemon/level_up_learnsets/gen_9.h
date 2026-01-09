@@ -3946,6 +3946,7 @@ static const struct LevelUpMove sGyaradosLevelUpLearnset[] = {
     LEVEL_UP_MOVE(44, MOVE_HURRICANE),
     LEVEL_UP_MOVE(48, MOVE_THRASH),
     LEVEL_UP_MOVE(52, MOVE_HYPER_BEAM),
+    LEVEL_UP_MOVE(56, MOVE_DRAGON_ASCENT),
     LEVEL_UP_END
 };
 #endif //P_FAMILY_MAGIKARP
