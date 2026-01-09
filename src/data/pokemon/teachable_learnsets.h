@@ -37531,6 +37531,7 @@ static const u16 sZeraoraTeachableLearnset[] = {
     MOVE_SLEEP_TALK,
     MOVE_SNORE,
     MOVE_SWIFT,
+    MOVE_SWORD_DANCE,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
     MOVE_UNAVAILABLE,
